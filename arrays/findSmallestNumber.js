@@ -1,5 +1,5 @@
 function findSmallest(arr) {
-  // For the Smallest numer we need to use the Possitive Infinity
+  // For the Smallest number we need to use the Possitive Infinity
   let smallest = Infinity;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] < smallest) {
